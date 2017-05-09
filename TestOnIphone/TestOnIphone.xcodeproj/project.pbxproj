@@ -210,7 +210,7 @@
 				TargetAttributes = {
 					AD53421B1EC042D800D283B9 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = QE8C5ZYQ72;
+						DevelopmentTeam = 4D8A875794;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -385,7 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QE8C5ZYQ72;
+				DEVELOPMENT_TEAM = 4D8A875794;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TestOnIphone/PrefixHeader.pch";
 				INFOPLIST_FILE = TestOnIphone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -398,7 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QE8C5ZYQ72;
+				DEVELOPMENT_TEAM = 4D8A875794;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TestOnIphone/PrefixHeader.pch";
 				INFOPLIST_FILE = TestOnIphone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
