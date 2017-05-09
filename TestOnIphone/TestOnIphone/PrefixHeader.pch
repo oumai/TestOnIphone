@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  TestOnIphone
+//
+//  Created by MichaeOu on 2017/5/8.
+//  Copyright © 2017年 康美. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AFNetworking.h"
+#define k_NslogDesData  NSLog(@"%@",[ASURLConnection doDESDecrypt:responseObject]);
+#define k_NslogError      NSLog(@"%@",@"连接失败,请检查网络");
+
+#endif /* PrefixHeader_pch */
