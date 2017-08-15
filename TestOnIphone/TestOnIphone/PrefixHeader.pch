@@ -13,6 +13,7 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #import "AFNetworking.h"
+#import "JSONKit.h"
 #define k_NslogDesData  NSLog(@"%@",[ASURLConnection doDESDecrypt:responseObject]);
 #define k_NslogError      NSLog(@"%@",@"连接失败,请检查网络");
 

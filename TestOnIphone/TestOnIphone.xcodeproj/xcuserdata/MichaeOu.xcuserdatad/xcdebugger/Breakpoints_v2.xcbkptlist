@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TestOnIphone/ViewController.m"
-            timestampString = "515924454.059101"
+            filePath = "TestOnIphone/AFNet(&#x5929;&#x4f7f;)/ASURLConnection.m"
+            timestampString = "516704508.791142"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "-setque"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "+requestAFNJSon:method:completeBlock:errorBlock:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,45 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TestOnIphone/ViewController.m"
-            timestampString = "515926341.05697"
+            filePath = "TestOnIphone/AFNet(&#x5929;&#x4f7f;)/ASURLConnection.m"
+            timestampString = "516704513.898342"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-setque"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TestOnIphone/ViewController.m"
-            timestampString = "515926343.296011"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "-setque"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TestOnIphone/ViewController.m"
-            timestampString = "515926363.726076"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "-setque"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "+requestAFNJSon:method:completeBlock:errorBlock:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

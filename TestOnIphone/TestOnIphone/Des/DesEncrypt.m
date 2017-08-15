@@ -29,7 +29,6 @@
 	hexBytes = [NSString stringWithUTF8String:strbuf];
 	free(strbuf);
 	return hexBytes;
-
 }
 
 //加密
@@ -132,6 +131,9 @@
         }
         [data appendBytes:&byte length:1];
     }
+    
+    
+    
     return data;
 }
 //MD5加密

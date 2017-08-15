@@ -51,18 +51,6 @@
 //    return str;
 }
 /**
- *  解密支付宝请求数据，因为里面的加号不能替换
- *
- *  data        :请求后的data
- *
- *  @return str
- */
-+(NSString *)doDESDecryptWithZhifubao:(id)data{
-    NSString *str = [DesEncrypt decryptUseDES:data key:@"*JUMPER*"];
-    str = [str  stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    return str;
-}
-/**
  *  获取请求状态值
  *  @return msg（int）
  */
@@ -112,13 +100,21 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                
             });
-    
+            //[ASURLConnection doDESDecrypt:responseObject];
             k_NslogDesData
-            completeBlock(nil,responseObject);
+            
+            if ([[ASURLConnection getMsg:responseObject] isEqualToNumber:@1])
+            {
+                //数组接受
+                NSArray *dataArr = [[[ASURLConnection doDESDecrypt:responseObject] objectFromJSONString] objectForKey:@"data"];
+                NSLog(@"%@===dataArr.count=%ld",dataArr,dataArr.count);
+            }
+
+            //completeBlock(nil,responseObject);
             
         } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
             errorBlock(error);
-            k_NslogError
+            //k_NslogError
         
            
         }];

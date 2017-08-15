@@ -26,6 +26,7 @@
 		AD53427F1EC0674800D283B9 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5342741EC0674800D283B9 /* AFURLSessionManager.m */; };
 		AD5342801EC0674800D283B9 /* ASURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5342761EC0674800D283B9 /* ASURLConnection.m */; };
 		AD5342831EC067EC00D283B9 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5342821EC067EC00D283B9 /* libz.1.2.5.tbd */; };
+		AD6C3A9D1EEE5E3600C9F94E /* NSMutableArray+SortTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6C3A9C1EEE5E3600C9F94E /* NSMutableArray+SortTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,8 @@
 		AD5342751EC0674800D283B9 /* ASURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASURLConnection.h; sourceTree = "<group>"; };
 		AD5342761EC0674800D283B9 /* ASURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASURLConnection.m; sourceTree = "<group>"; };
 		AD5342821EC067EC00D283B9 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		AD6C3A9B1EEE5E3600C9F94E /* NSMutableArray+SortTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SortTools.h"; sourceTree = "<group>"; };
+		AD6C3A9C1EEE5E3600C9F94E /* NSMutableArray+SortTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SortTools.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 				AD5342231EC042D800D283B9 /* AppDelegate.m */,
 				AD5342251EC042D800D283B9 /* ViewController.h */,
 				AD5342261EC042D800D283B9 /* ViewController.m */,
+				AD6C3A9A1EEE5DDD00C9F94E /* 数据结构与算法 */,
 				AD5342611EC0674800D283B9 /* AFNet(天使) */,
 				AD5342531EC04D5900D283B9 /* JSONKit */,
 				AD53424F1EC04CEA00D283B9 /* Des */,
@@ -177,6 +181,15 @@
 				AD5342821EC067EC00D283B9 /* libz.1.2.5.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD6C3A9A1EEE5DDD00C9F94E /* 数据结构与算法 */ = {
+			isa = PBXGroup;
+			children = (
+				AD6C3A9B1EEE5E3600C9F94E /* NSMutableArray+SortTools.h */,
+				AD6C3A9C1EEE5E3600C9F94E /* NSMutableArray+SortTools.m */,
+			);
+			path = "数据结构与算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +267,7 @@
 				AD53427F1EC0674800D283B9 /* AFURLSessionManager.m in Sources */,
 				AD5342561EC04D5900D283B9 /* JSONKit.m in Sources */,
 				AD5342801EC0674800D283B9 /* ASURLConnection.m in Sources */,
+				AD6C3A9D1EEE5E3600C9F94E /* NSMutableArray+SortTools.m in Sources */,
 				AD53427A1EC0674800D283B9 /* AFNetworkReachabilityManager.m in Sources */,
 				AD5342271EC042D800D283B9 /* ViewController.m in Sources */,
 				AD53427C1EC0674800D283B9 /* AFURLConnectionOperation.m in Sources */,
@@ -385,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				DEVELOPMENT_TEAM = QE8C5ZYQ72;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TestOnIphone/PrefixHeader.pch";
 				INFOPLIST_FILE = TestOnIphone/Info.plist;
@@ -398,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				DEVELOPMENT_TEAM = QE8C5ZYQ72;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TestOnIphone/PrefixHeader.pch";
 				INFOPLIST_FILE = TestOnIphone/Info.plist;
